@@ -5,8 +5,7 @@ pipeline {
             steps {
                 script {
                     print("Building Code")
-                    sh "npm install"
-                    sh "npm run build"
+                    sh "echo something"
                 }
             }
         }
