@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     print("Building Code")
-                    sh "echo something"
+                    bat "echo something"
                 }
             }
         }
