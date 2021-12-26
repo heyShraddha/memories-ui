@@ -5,7 +5,8 @@ pipeline {
             steps {
                 script {
                     print("Building Code")
-                    bat "echo something"
+                    bat "npm install"
+                    bat "npm run build"
                 }
             }
         }
@@ -14,7 +15,7 @@ pipeline {
             steps {
                 script {
                     print("Testing Code")
-                    sh "npm run sonar"
+                    bat "npm run sonar"
                 }
             }
         }
