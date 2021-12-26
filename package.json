@@ -17,13 +17,15 @@
     "react-scripts": "^4.0.3",
     "redux": "^4.1.1",
     "redux-thunk": "^2.3.0",
+    "sonarqube-scanner": "^2.8.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sonar": "node scanner.js"
   },
   "eslintConfig": {
     "extends": [
